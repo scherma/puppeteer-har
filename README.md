@@ -35,6 +35,7 @@ const PuppeteerHar = require('puppeteer-har');
 ### har.start([options])
 - `options` <?[Object]> Optional
   - `path` <[string]> If set HAR file will be written at this path
+  - `useFetch` <[bool]> Will save response bodies using experimental Fetch domain.
 - returns: <[Promise]>
 
 ### har.stop()
