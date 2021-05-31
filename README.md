@@ -1,4 +1,4 @@
-# puppeteer-har
+# puppeteer-har-fetch
 [![npm version][1]][2] 
 
 Generate HAR file with [puppeteer](https://github.com/GoogleChrome/puppeteer).
@@ -6,7 +6,7 @@ Generate HAR file with [puppeteer](https://github.com/GoogleChrome/puppeteer).
 ## Install
 
 ```
-npm install puppeteer-har
+npm install puppeteer-har-fetch
 ```
 
 ## Usage
