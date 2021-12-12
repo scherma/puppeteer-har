@@ -35,6 +35,8 @@ const PuppeteerHar = require('puppeteer-har');
 ### har.start([options])
 - `options` <?[Object]> Optional
   - `path` <[string]> If set HAR file will be written at this path
+  - `saveResponse` <[bool]> Save response bodies to the HAR file
+  - `captureMimeTypes` <[Array]> An array of MIME types to capture. Defaults to "['text/html', 'application/json']". Including "*" causes all MIME types to be captured.
   - `useFetch` <[bool]> Will save response bodies using experimental Fetch domain.
 - returns: <[Promise]>
 
